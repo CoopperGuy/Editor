@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainFrame">
+      <UniqueIdentifier>{e1f52ba1-5e98-4eb5-9acc-c92134ad747b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View">
+      <UniqueIdentifier>{0c98ddef-44d8-4806-9e89-fc804a84667c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Document">
+      <UniqueIdentifier>{4cee8d0d-fa10-4d55-96e1-926b7ae22b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{2174737d-6225-4e64-8565-c38ac11f10a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Graphic_Device">
+      <UniqueIdentifier>{b52584a1-979e-483f-a4f7-d02d196d60fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{07827a87-6b02-4c01-8390-8a4504d3bbb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Texture">
+      <UniqueIdentifier>{3f62e97e-deac-4106-beee-5745e2e76656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Texture\SingleTexture">
+      <UniqueIdentifier>{45b215db-fc86-4720-942e-2d9aab1489c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Texture\Manager">
+      <UniqueIdentifier>{230f2926-f43f-415a-8e10-e48f3ac1eb54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Texture\MultiTexture">
+      <UniqueIdentifier>{8cd4cc0b-b7c2-4be5-a311-678ac14af042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\Form">
+      <UniqueIdentifier>{adbe4127-eb98-47d1-a870-ec1d9a8bf3d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\Miniview">
+      <UniqueIdentifier>{13c5f29e-9f8a-4c6f-81e7-792f1593fa7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\Form\UnitTool">
+      <UniqueIdentifier>{2e0ef5df-c508-4181-a6d0-70a65f1981b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\Form\MapTool">
+      <UniqueIdentifier>{3c040713-bb19-4df3-b76e-f873b75eb542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.FileInfo">
+      <UniqueIdentifier>{69c5438b-2c7d-485e-b337-53493128c266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\Form\RoomTool">
+      <UniqueIdentifier>{8682f8d1-8b29-4f95-a7ef-f6260a4a9505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\Form\MonsterTool">
+      <UniqueIdentifier>{5bcce833-1e1b-45dd-adf0-5908faaf2181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\Form\UITool">
+      <UniqueIdentifier>{1d00c67f-f566-468a-a0ca-a5d3a5f15792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\Form\ObjectTool">
+      <UniqueIdentifier>{19f5ce48-058a-42a5-83e5-746050e41b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\Object">
+      <UniqueIdentifier>{ce669e97-fdf1-4e19-b1cf-ce81a92ce5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\Object\Monster">
+      <UniqueIdentifier>{32532d9d-09fe-4d29-949f-c2fbb8803d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Room">
+      <UniqueIdentifier>{8ffeb69e-b54e-4da1-8461-82c89386907f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Room\01.Terrain">
+      <UniqueIdentifier>{912abe3a-c2a0-4007-9a73-733c0d8c3ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Room\01.Terrain\Tile">
+      <UniqueIdentifier>{107aedcd-deea-4bba-a4f0-5b9e95b6af6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00.MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCToolView.h">
+      <Filter>01.View</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCToolDoc.h">
+      <Filter>02.Document</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCTool.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic_Device.h">
+      <Filter>03.Graphic_Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>03.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>03.Texture\SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_Manager.h">
+      <Filter>03.Texture\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>03.Texture\MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="Form.h">
+      <Filter>01.View\Form</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniView.h">
+      <Filter>01.View\Miniview</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTool.h">
+      <Filter>01.View\Form\UnitTool</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>01.View\Form\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="UITool.h">
+      <Filter>01.View\Form\UITool</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectTool.h">
+      <Filter>01.View\Form\ObjectTool</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterTool.h">
+      <Filter>01.View\Form\MonsterTool</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo.h">
+      <Filter>05.FileInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01.View\Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MyObj.h">
+      <Filter>01.View\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>04.Room</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>04.Room\01.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>04.Room\01.Terrain\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomTool.h">
+      <Filter>01.View\Form\RoomTool</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00.MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCToolView.cpp">
+      <Filter>01.View</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCToolDoc.cpp">
+      <Filter>02.Document</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCTool.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic_Device.cpp">
+      <Filter>03.Graphic_Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>03.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>03.Texture\SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture_Manager.cpp">
+      <Filter>03.Texture\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>03.Texture\MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="Form.cpp">
+      <Filter>01.View\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniView.cpp">
+      <Filter>01.View\Miniview</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTool.cpp">
+      <Filter>01.View\Form\UnitTool</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>01.View\Form\MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="UITool.cpp">
+      <Filter>01.View\Form\UITool</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectTool.cpp">
+      <Filter>01.View\Form\ObjectTool</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterTool.cpp">
+      <Filter>01.View\Form\MonsterTool</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01.View\Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo.cpp">
+      <Filter>05.FileInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="MyObj.cpp">
+      <Filter>01.View\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>04.Room</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>04.Room\01.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>04.Room\01.Terrain\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomTool.cpp">
+      <Filter>01.View\Form\RoomTool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFCTool.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\MFCToolDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCTool.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCTool.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
